@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css?family=Lobster");
+
+body {
+    background: #654ea3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #eaafc8, #654ea3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #eaafc8, #654ea3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#header {
+    margin-top: 50px;
+    padding: 100px;
+    text-align: center;
+    background: #1a1a1a;
+    color: cornsilk;
+    font-size: 30px;
+    font-family: Lobster, sans-serif;
+}
+
+#footer {
+    text-align: center;
+    padding: 10px;
+    background: #fFC;
+    font-family: Verdana, sans-serif;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.logo-spin {
+    -webkit-transform-origin: 50% 0;
+    transform-origin: 0 50%;
+    -webkit-animation: swinging 3.5s ease-in-out forwards infinite;
+    animation: swinging 3.5s ease-in-out forwards infinite;
+}
+
+@-webkit-keyframes swinging{
+    0%{-webkit-transform: rotate(10deg);}
+    50%{-webkit-transform: rotate(-5deg)}
+    100%{-webkit-transform: rotate(10deg);}
+}
+ 
+@keyframes swinging{
+    0%{transform: rotate(10deg);}
+    50%{transform: rotate(-5deg)}
+    100%{transform: rotate(10deg);}
+}
+
+.snek:hover {
+    animation: moveToRight 2s ease-in-out;
+}
+
+@keyframes moveToRight {
+    0% {
+        transform: translateX(0px);
+    }
+    50% {
+        transform: translateX(500px)
+    }
+    100% {
+        transform: translateX(1000px);
+    }
+}
+
+button{
+    padding: 10px;
+    margin: 50px;
+    background-color: #654ea3;
+    border-radius: 10px;
+    color: cornsilk;
+    text-align: center;
+}
+
+button:hover {
+    background-color: black;
+    color: #03a062;
+    padding: 8px;
+}
+
+p {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 19px;
+}
