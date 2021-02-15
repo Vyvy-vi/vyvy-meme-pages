@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "html-css-vanillajs pages with memes/jokes/maybe art? (mostly shitpost)",
   "main": "index.js",
+  "homepage": "https://github.com/Vyvy-vi/portfolio#readme",
   "scripts": {
-    "deploy": "gh-pages -d .",
+    "deploy": "gh-pages -d ."
   },
   "repository": {
     "type": "git",
