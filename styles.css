@@ -46,8 +46,26 @@ body {
     100%{transform: rotate(10deg);}
 }
 
+.snek2 {
+  transform: translate(0%, -30%);
+}
+
+.snek2:hover {
+    animation: upMove 2s ease-in-out;
+}
+
 .snek:hover {
     animation: moveToRight 2s ease-in-out;
+}
+
+
+@keyframes upMove {
+    0% {
+      transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(-800px)
+    }
 }
 
 @keyframes moveToRight {
