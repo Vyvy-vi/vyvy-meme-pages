@@ -2,8 +2,8 @@
   "name": "vyvy-meme-pages",
   "version": "1.0.0",
   "description": "html-css-vanillajs pages with memes/jokes/maybe art? (mostly shitpost)",
-  "main": "index.js",
-  "homepage": "https://github.com/Vyvy-vi/portfolio#readme",
+  "main": "eddie-scream.js",
+  "homepage": "https://github.com/Vyvy-vi/eddie-scream.html",
   "scripts": {
     "deploy": "gh-pages -d ."
   },
