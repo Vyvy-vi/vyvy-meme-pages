@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "html-css-vanillajs pages with memes/jokes/maybe art? (mostly shitpost)",
   "main": "eddie-scream.js",
-  "homepage": "https://github.com/Vyvy-vi/eddie-scream.html",
+  "homepage": "https://github.com/Vyvy-vi/vyvy-meme-pages#readme",
   "scripts": {
     "deploy": "gh-pages -d ."
   },
@@ -17,7 +17,6 @@
   "bugs": {
     "url": "https://github.com/Vyvy-vi/vyvy-meme-pages/issues"
   },
-  "homepage": "https://github.com/Vyvy-vi/vyvy-meme-pages#readme",
   "dependencies": {
     "gh-pages": "^3.1.0"
   }

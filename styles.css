@@ -8,7 +8,7 @@ body {
 
 #header {
     margin-top: 50px;
-    padding: 100px;
+    padding: 80px;
     text-align: center;
     background: #1a1a1a;
     color: cornsilk;
@@ -82,7 +82,8 @@ body {
 
 button{
     padding: 10px;
-    margin: 50px;
+    margin-top: 50px;
+    margin-bottom: 8px;
     background-color: #654ea3;
     border-radius: 10px;
     color: cornsilk;
@@ -99,4 +100,16 @@ p {
     text-align: center;
     font-family: sans-serif;
     font-size: 19px;
+}
+
+h6 {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+#red {
+    color: #f00;
 }
