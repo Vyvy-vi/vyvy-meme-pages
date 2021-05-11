@@ -3,9 +3,8 @@ html-css-vanillajs pages with memes/jokes/maybe art? (mostly shitpost)
 
 This site is deployed at: https://vyvy-vi.github.io/vyvy-meme-pages
 
+
 # List of pages-
----
-title: "Pages"
 ---
 
 | Pages| Description |
